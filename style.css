@@ -26,12 +26,21 @@
 .res-container {
     display: flex;
     flex-wrap: wrap;
+    
+}
+
+.res-container>a{
+    text-decoration: none;
+    color: black;
+   
 }
 
 .res-card {
     margin: 5px;
     padding: 5px;
     width: 200px;
+    height: 380px;
+    
 }
 
 .res-card:hover {
@@ -85,3 +94,50 @@ justify-content: space-around;
     padding: 0.5rem;
 }
 
+.info {
+    margin: 0 10px;
+}
+
+
+
+.resdetail {
+   text-align: center;
+}
+
+.info >ul>li{
+    list-style-type: none;
+    margin: 42px 0;
+}
+
+.info{
+    margin: 42px 10rem;
+   
+}
+
+.resinfo {
+    margin: 0px 50px;
+}
+
+.menuitem{
+    
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.itemimg {
+    width: 100px;
+    border-radius: 20px;
+}
+
+.user-card{
+    border: 1px solid black;
+    width: 200px;
+    margin: 10px;
+}
+
+.user-card > img{
+    height: 100px;
+    width: 100px;
+}
