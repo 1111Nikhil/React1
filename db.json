@@ -1,0 +1,2438 @@
+{"restaurants" : [
+    {
+      "info": {
+        "id": "6935",
+        "name": "FreshMenu",
+        "cloudinaryImageId": "6c4de7b481d3614370e5062b2f33e7d6",
+        "locality": "John's Church Road",
+        "areaName": "Frazer Town",
+        "costForTwo": "₹250 for two",
+        "cuisines": [
+          "Continental",
+          "Chinese",
+          "Oriental",
+          "Asian",
+          "Healthy Food",
+          "Fast Food",
+          "Indian",
+          "Desserts"
+        ],
+        "avgRating": 4.2,
+        "parentId": "398",
+        "avgRatingString": "4.2",
+        "totalRatingsString": "10K+",
+        "promoted": true,
+        "adTrackingId": "cid=12110542~p=0~adgrpid=12110542#ag1~mp=SWIGGY_IN~bl=FOOD~eid=db08cf49-6030-4dbb-96dc-1111c1a29e94~aet=RESTAURANT~aeid=6935~srvts=1711784255743",
+        "sla": {
+          "deliveryTime": 27,
+          "lastMileTravel": 1.4,
+          "serviceability": "SERVICEABLE",
+          "slaString": "25-30 mins",
+          "lastMileTravelString": "1.3 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-31 00:00:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              
+            },
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "description": "",
+                    "shortDescription": "options available",
+                    "fontColor": "#7E808C"
+                  }
+                }
+              ]
+            },
+            "textBased": {
+              
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "EVERY ITEM",
+          "subHeader": "@ ₹139"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "--"
+          }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=6935",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "10583",
+        "name": "Pizza Hut",
+        "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
+        "locality": "Frazer Town",
+        "areaName": "Frazer Town",
+        "costForTwo": "₹350 for two",
+        "cuisines": [
+          "Pizzas"
+        ],
+        "avgRating": 4,
+        "parentId": "721",
+        "avgRatingString": "4.0",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 31,
+          "lastMileTravel": 1.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "30-35 mins",
+          "lastMileTravelString": "1.8 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-31 03:00:00",
+          "opened": true
+        },
+        "badges": {
+          
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "textBased": {
+              
+            },
+            "imageBased": {
+              
+            },
+            "textExtendedBadges": {
+              
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "ITEMS",
+          "subHeader": "AT ₹179"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "3.9",
+            "ratingCount": "1K+"
+          },
+          "source": "GOOGLE",
+          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=10583",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "692217",
+        "name": "BOOM Sandwich - Sub of India",
+        "cloudinaryImageId": "96aaf72372ad1b0297b7cc304ced7e33",
+        "locality": "MM Road",
+        "areaName": "Frazer Town",
+        "costForTwo": "₹250 for two",
+        "cuisines": [
+          "Snacks",
+          "Indian",
+          "Desserts"
+        ],
+        "avgRating": 4.1,
+        "parentId": "401169",
+        "avgRatingString": "4.1",
+        "totalRatingsString": "20+",
+        "sla": {
+          "deliveryTime": 23,
+          "lastMileTravel": 2.8,
+          "serviceability": "SERVICEABLE",
+          "slaString": "18-28 mins",
+          "lastMileTravelString": "2.7 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-31 02:00:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "textBased": {
+              
+            },
+            "imageBased": {
+              
+            },
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "description": "",
+                    "shortDescription": "options available",
+                    "fontColor": "#7E808C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "50% OFF",
+          "subHeader": "UPTO ₹100"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "--"
+          }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=692217",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "15962",
+        "name": "A2B - Adyar Ananda Bhavan",
+        "cloudinaryImageId": "pbfpu4f1h5qo1hexac0g",
+        "locality": "Pulikeshi Nagar",
+        "areaName": "Frazer Town",
+        "costForTwo": "₹300 for two",
+        "cuisines": [
+          "South Indian",
+          "North Indian",
+          "Sweets",
+          "Chinese"
+        ],
+        "avgRating": 4.5,
+        "veg": true,
+        "parentId": "22",
+        "avgRatingString": "4.5",
+        "totalRatingsString": "10K+",
+        "promoted": true,
+        "adTrackingId": "cid=12307127~p=1~adgrpid=12307127#ag1~mp=SWIGGY_IN~bl=FOOD~eid=48b50348-7bf5-4874-9042-f9f6651d028f~aet=RESTAURANT~aeid=15962~srvts=1711784255743",
+        "sla": {
+          "deliveryTime": 23,
+          "lastMileTravel": 1,
+          "serviceability": "SERVICEABLE",
+          "slaString": "20-25 mins",
+          "lastMileTravelString": "1.0 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-30 22:30:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "Rxawards/_CATEGORY-Mithai.png",
+              "description": "Delivery!"
+            },
+            {
+              "imageId": "Rxawards/_CATEGORY-South%20Indian.png",
+              "description": "Delivery!"
+            },
+            {
+              "imageId": "v1695133679/badges/Pure_Veg111.png",
+              "description": "pureveg"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "textBased": {
+              
+            },
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "imageId": "Rxawards/_CATEGORY-Mithai.png",
+                    "description": "Delivery!"
+                  }
+                },
+                {
+                  "attributes": {
+                    "imageId": "Rxawards/_CATEGORY-South%20Indian.png",
+                    "description": "Delivery!"
+                  }
+                },
+                {
+                  "attributes": {
+                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                    "description": "pureveg"
+                  }
+                }
+              ]
+            },
+            "textExtendedBadges": {
+              
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "20% OFF",
+          "subHeader": "UPTO ₹50"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "--"
+          }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=15962",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "487236",
+        "name": "NH1 Bowls - Highway To North",
+        "cloudinaryImageId": "94654fdf308764cd0faf83dba35bcdc3",
+        "locality": "Madhavaraya Mudaliar Road",
+        "areaName": "Frazer Town",
+        "costForTwo": "₹250 for two",
+        "cuisines": [
+          "North Indian",
+          "Punjabi",
+          "Home Food"
+        ],
+        "avgRating": 4.5,
+        "parentId": "22452",
+        "avgRatingString": "4.5",
+        "totalRatingsString": "100+",
+        "sla": {
+          "deliveryTime": 20,
+          "lastMileTravel": 2.8,
+          "serviceability": "SERVICEABLE",
+          "slaString": "15-25 mins",
+          "lastMileTravelString": "2.7 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-31 02:00:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "textBased": {
+              
+            },
+            "imageBased": {
+              
+            },
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "description": "",
+                    "shortDescription": "options available",
+                    "fontColor": "#7E808C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "50% OFF",
+          "subHeader": "UPTO ₹100"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "--"
+          }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=487236",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "382471",
+        "name": "Andhra Gunpowder",
+        "cloudinaryImageId": "ogef9xssra7f4kaxe7ox",
+        "locality": "Pulikeshi Nagar",
+        "areaName": "Frazer Town",
+        "costForTwo": "₹350 for two",
+        "cuisines": [
+          "Andhra",
+          "Biryani",
+          "South Indian"
+        ],
+        "avgRating": 4.4,
+        "parentId": "10496",
+        "avgRatingString": "4.4",
+        "totalRatingsString": "1K+",
+        "sla": {
+          "deliveryTime": 23,
+          "lastMileTravel": 1.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "20-25 mins",
+          "lastMileTravelString": "1.8 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-31 01:00:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "Rxawards/_CATEGORY-Andhra.png",
+              "description": "Delivery!"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "textExtendedBadges": {
+              
+            },
+            "textBased": {
+              
+            },
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "imageId": "Rxawards/_CATEGORY-Andhra.png",
+                    "description": "Delivery!"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "₹100 OFF",
+          "subHeader": "ABOVE ₹399",
+          "discountTag": "FLAT DEAL"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "--"
+          }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=382471",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "464839",
+        "name": "Bowl Soul",
+        "cloudinaryImageId": "e92965cf38eeba579a1edc38a91f6419",
+        "locality": "St. John's Church Road",
+        "areaName": "Frazer Town",
+        "costForTwo": "₹250 for two",
+        "cuisines": [
+          "Indian",
+          "Asian",
+          "Continental",
+          "Pan-Asian",
+          "Chinese",
+          "Mediterranean",
+          "Mexican",
+          "Lebanese",
+          "North Indian",
+          "Korean",
+          "Japanese",
+          "South Indian"
+        ],
+        "avgRating": 4,
+        "parentId": "280646",
+        "avgRatingString": "4.0",
+        "totalRatingsString": "100+",
+        "promoted": true,
+        "adTrackingId": "cid=12209292~p=2~adgrpid=12209292#ag1~mp=SWIGGY_IN~bl=FOOD~eid=41e4604f-68cf-40d8-af01-49cb227de475~aet=RESTAURANT~aeid=464839~srvts=1711784255743",
+        "sla": {
+          "deliveryTime": 28,
+          "lastMileTravel": 1.4,
+          "serviceability": "SERVICEABLE",
+          "slaString": "25-30 mins",
+          "lastMileTravelString": "1.3 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-30 23:59:00",
+          "opened": true
+        },
+        "badges": {
+          
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "textExtendedBadges": {
+              
+            },
+            "textBased": {
+              
+            },
+            "imageBased": {
+              
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "EVERY ITEM",
+          "subHeader": "@ ₹133"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "--"
+          }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=464839",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "588619",
+        "name": "KFC",
+        "cloudinaryImageId": "f01666ac73626461d7455d9c24005cd4",
+        "locality": "Brigade Road",
+        "areaName": "Central Bangalore",
+        "costForTwo": "₹400 for two",
+        "cuisines": [
+          "Burgers",
+          "Biryani",
+          "American",
+          "Snacks",
+          "Fast Food"
+        ],
+        "avgRating": 4.2,
+        "parentId": "547",
+        "avgRatingString": "4.2",
+        "totalRatingsString": "1K+",
+        "sla": {
+          "deliveryTime": 28,
+          "lastMileTravel": 2.3,
+          "serviceability": "SERVICEABLE",
+          "slaString": "25-30 mins",
+          "lastMileTravelString": "2.2 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-31 01:00:00",
+          "opened": true
+        },
+        "badges": {
+          
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "textBased": {
+              
+            },
+            "imageBased": {
+              
+            },
+            "textExtendedBadges": {
+              
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "20% OFF",
+          "subHeader": "UPTO ₹50"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "--"
+          }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=588619",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "237668",
+        "name": "McDonald's",
+        "cloudinaryImageId": "f62564e14944753903849c4ef673af4d",
+        "locality": "Commercial Street",
+        "areaName": "Shivajinagar",
+        "costForTwo": "₹400 for two",
+        "cuisines": [
+          "Burgers",
+          "Beverages",
+          "Cafe",
+          "Desserts"
+        ],
+        "avgRating": 4.4,
+        "parentId": "630",
+        "avgRatingString": "4.4",
+        "totalRatingsString": "5K+",
+        "sla": {
+          "deliveryTime": 23,
+          "lastMileTravel": 0.8,
+          "serviceability": "SERVICEABLE",
+          "slaString": "20-25 mins",
+          "lastMileTravelString": "0.8 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-30 23:00:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "Rxawards/_CATEGORY-Burger.png",
+              "description": "Delivery!"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "textExtendedBadges": {
+              
+            },
+            "textBased": {
+              
+            },
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "Delivery!",
+                    "imageId": "Rxawards/_CATEGORY-Burger.png"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "FREE ITEM"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "--"
+          }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=237668",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "3433",
+        "name": "Nandhini Deluxe",
+        "cloudinaryImageId": "iocj6o3ddnkb8tcmuzer",
+        "locality": "Coles Road",
+        "areaName": "Frazer Town",
+        "costForTwo": "₹500 for two",
+        "cuisines": [
+          "Andhra",
+          "Biryani",
+          "North Indian"
+        ],
+        "avgRating": 4.2,
+        "parentId": "2451",
+        "avgRatingString": "4.2",
+        "totalRatingsString": "10K+",
+        "promoted": true,
+        "adTrackingId": "cid=12287667~p=3~adgrpid=12287667#ag1~mp=SWIGGY_IN~bl=FOOD~eid=16ebbf99-2fc3-44f0-bd1c-2be9ac090f4c~aet=RESTAURANT~aeid=3433~srvts=1711784255743",
+        "sla": {
+          "deliveryTime": 26,
+          "lastMileTravel": 2.3,
+          "serviceability": "SERVICEABLE",
+          "slaString": "25-30 mins",
+          "lastMileTravelString": "2.2 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-31 00:00:00",
+          "opened": true
+        },
+        "badges": {
+          
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "textBased": {
+              
+            },
+            "imageBased": {
+              
+            },
+            "textExtendedBadges": {
+              
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "40% OFF",
+          "subHeader": "UPTO ₹80"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "3.6",
+            "ratingCount": "1K+"
+          },
+          "source": "GOOGLE",
+          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=3433",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "3241",
+        "name": "Meghana Foods",
+        "cloudinaryImageId": "e0vvulfbahjxjz6k4uwi",
+        "locality": "Residency Road",
+        "areaName": "Residency Road",
+        "costForTwo": "₹500 for two",
+        "cuisines": [
+          "Biryani",
+          "Andhra",
+          "South Indian",
+          "Chinese",
+          "Seafood"
+        ],
+        "avgRating": 4.6,
+        "parentId": "635",
+        "avgRatingString": "4.6",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 25,
+          "lastMileTravel": 2.1,
+          "serviceability": "SERVICEABLE",
+          "slaString": "25-30 mins",
+          "lastMileTravelString": "2.0 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-31 01:30:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "Rxawards/_CATEGORY-Biryani.png",
+              "description": "Delivery!"
+            }
+          ]
+        },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": {
+          
+        },
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "imageId": "Rxawards/_CATEGORY-Biryani.png",
+                    "description": "Delivery!"
+                  }
+                }
+              ]
+            },
+            "textExtendedBadges": {
+              
+            },
+            "textBased": {
+              
+            }
+          }
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "4.3",
+            "ratingCount": "10K+"
+          },
+          "source": "GOOGLE",
+          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=3241",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "23812",
+        "name": "Domino's Pizza",
+        "cloudinaryImageId": "d0450ce1a6ba19ea60cd724471ed54a8",
+        "locality": "Pulakeshinagar",
+        "areaName": "Frazer Town",
+        "costForTwo": "₹400 for two",
+        "cuisines": [
+          "Pizzas",
+          "Italian",
+          "Pastas",
+          "Desserts"
+        ],
+        "avgRating": 4.3,
+        "parentId": "2456",
+        "avgRatingString": "4.3",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 25,
+          "lastMileTravel": 2.3,
+          "serviceability": "SERVICEABLE",
+          "slaString": "25 mins",
+          "lastMileTravelString": "2.2 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-30 22:59:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "Rxawards/_CATEGORY-Pizza.png",
+              "description": "Delivery!"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "textBased": {
+              
+            },
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "imageId": "Rxawards/_CATEGORY-Pizza.png",
+                    "description": "Delivery!"
+                  }
+                }
+              ]
+            },
+            "textExtendedBadges": {
+              
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "30% OFF",
+          "subHeader": "UPTO ₹75"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "--"
+          }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=23812",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "109787",
+        "name": "Chianti",
+        "cloudinaryImageId": "byb52jmakvfk71lqd0av",
+        "locality": "MG Road",
+        "areaName": "MG Road",
+        "costForTwo": "₹1250 for two",
+        "cuisines": [
+          "Italian",
+          "Pizzas",
+          "Salads",
+          "Pastas",
+          "Desserts"
+        ],
+        "avgRating": 4.6,
+        "parentId": "7396",
+        "avgRatingString": "4.6",
+        "totalRatingsString": "1K+",
+        "promoted": true,
+        "adTrackingId": "cid=11630561~p=4~adgrpid=11630561#ag1~mp=SWIGGY_IN~bl=FOOD~eid=fbfd09fc-15ff-4c0b-97fe-0c3396bf95f5~aet=RESTAURANT~aeid=109787~srvts=1711784255743",
+        "sla": {
+          "deliveryTime": 26,
+          "lastMileTravel": 2,
+          "serviceability": "SERVICEABLE",
+          "slaString": "25-30 mins",
+          "lastMileTravelString": "2.0 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-30 23:00:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "newg.png",
+              "description": "Gourmet"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "textBased": {
+              
+            },
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "imageId": "newg.png",
+                    "description": "Gourmet"
+                  }
+                }
+              ]
+            },
+            "textExtendedBadges": {
+              
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "50% OFF",
+          "subHeader": "UPTO ₹100"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "4.3",
+            "ratingCount": "1K+"
+          },
+          "source": "GOOGLE",
+          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=109787",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "2914",
+        "name": "Bheema's",
+        "cloudinaryImageId": "aff0be3ebc62e299701c087b8dcd1c0d",
+        "locality": "Church Street",
+        "areaName": "Central Bangalore",
+        "costForTwo": "₹550 for two",
+        "cuisines": [
+          "Andhra"
+        ],
+        "avgRating": 4.4,
+        "parentId": "1841",
+        "avgRatingString": "4.4",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 27,
+          "lastMileTravel": 2.3,
+          "serviceability": "SERVICEABLE",
+          "slaString": "25-30 mins",
+          "lastMileTravelString": "2.2 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-30 15:30:00",
+          "opened": true
+        },
+        "badges": {
+          
+        },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": {
+          
+        },
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "textExtendedBadges": {
+              
+            },
+            "textBased": {
+              
+            },
+            "imageBased": {
+              
+            }
+          }
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "4.0",
+            "ratingCount": "5K+"
+          },
+          "source": "GOOGLE",
+          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=2914",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "464509",
+        "name": "Leon's - Burgers & Wings (Leon Grill)",
+        "cloudinaryImageId": "b2edbc28b7b8219d6e0a9c049ce06658",
+        "locality": "Frazer Town",
+        "areaName": "Frazer Town",
+        "costForTwo": "₹300 for two",
+        "cuisines": [
+          "American",
+          "Snacks",
+          "Turkish",
+          "Portuguese",
+          "Continental"
+        ],
+        "avgRating": 4.4,
+        "parentId": "371281",
+        "avgRatingString": "4.4",
+        "totalRatingsString": "5K+",
+        "sla": {
+          "deliveryTime": 24,
+          "lastMileTravel": 2.3,
+          "serviceability": "SERVICEABLE",
+          "slaString": "20-25 mins",
+          "lastMileTravelString": "2.2 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-31 03:00:00",
+          "opened": true
+        },
+        "badges": {
+          
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "textBased": {
+              
+            },
+            "imageBased": {
+              
+            },
+            "textExtendedBadges": {
+              
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "50% OFF",
+          "subHeader": "UPTO ₹100"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "4.6",
+            "ratingCount": "500+"
+          },
+          "source": "GOOGLE",
+          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=464509",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "42149",
+        "name": "Asha Sweet Center - Since 1951",
+        "cloudinaryImageId": "zkqpwids2gbvhyufilja",
+        "locality": "Binnamangala",
+        "areaName": "Indiranagar",
+        "costForTwo": "₹250 for two",
+        "cuisines": [
+          "Sweets",
+          "Snacks",
+          "Fast Food",
+          "Bakery",
+          "Beverages",
+          "Chaat",
+          "Thalis",
+          "North Indian",
+          "Chinese"
+        ],
+        "avgRating": 4.6,
+        "veg": true,
+        "parentId": "472555",
+        "avgRatingString": "4.6",
+        "totalRatingsString": "10K+",
+        "promoted": true,
+        "adTrackingId": "cid=12287801~p=5~adgrpid=12287801#ag1~mp=SWIGGY_IN~bl=FOOD~eid=6110d6a2-e30d-433d-afc8-9ddaff921393~aet=RESTAURANT~aeid=42149~srvts=1711784255743",
+        "sla": {
+          "deliveryTime": 28,
+          "lastMileTravel": 3.8,
+          "serviceability": "SERVICEABLE",
+          "slaString": "25-30 mins",
+          "lastMileTravelString": "3.7 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-30 21:45:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "v1695133679/badges/Pure_Veg111.png",
+              "description": "pureveg"
+            }
+          ]
+        },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": {
+          
+        },
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                    "description": "pureveg"
+                  }
+                }
+              ]
+            },
+            "textExtendedBadges": {
+              
+            },
+            "textBased": {
+              
+            }
+          }
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "--"
+          }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=42149",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "464482",
+        "name": "Maverick & Farmer Coffee",
+        "cloudinaryImageId": "uxqshovneluei3b9jyit",
+        "locality": "Ulsoor",
+        "areaName": "Central Bangalore",
+        "costForTwo": "₹800 for two",
+        "cuisines": [
+          "American",
+          "Pizzas",
+          "Snacks",
+          "Beverages"
+        ],
+        "avgRating": 4.6,
+        "parentId": "278877",
+        "avgRatingString": "4.6",
+        "totalRatingsString": "500+",
+        "sla": {
+          "deliveryTime": 26,
+          "lastMileTravel": 0.5,
+          "serviceability": "SERVICEABLE",
+          "slaString": "25-30 mins",
+          "lastMileTravelString": "0.5 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-30 21:00:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "textBased": {
+              
+            },
+            "imageBased": {
+              
+            },
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "description": "",
+                    "shortDescription": "options available",
+                    "fontColor": "#7E808C"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "10% OFF",
+          "subHeader": "ABOVE ₹1100",
+          "discountTag": "FLAT DEAL"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "4.6",
+            "ratingCount": "1K+"
+          },
+          "source": "GOOGLE",
+          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=464482",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "180958",
+        "name": "Bhagatram Sweets",
+        "cloudinaryImageId": "sumpo9h2yxv7nadfxtyx",
+        "locality": "Commercial Street",
+        "areaName": "Shivajinagar",
+        "costForTwo": "₹250 for two",
+        "cuisines": [
+          "Indian",
+          "Chinese",
+          "North Indian",
+          "Snacks"
+        ],
+        "avgRating": 3.9,
+        "veg": true,
+        "parentId": "14615",
+        "avgRatingString": "3.9",
+        "totalRatingsString": "1K+",
+        "sla": {
+          "deliveryTime": 25,
+          "lastMileTravel": 0.5,
+          "serviceability": "SERVICEABLE",
+          "slaString": "20-25 mins",
+          "lastMileTravelString": "0.5 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-30 20:45:00",
+          "opened": true
+        },
+        "badges": {
+          
+        },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": {
+          
+        },
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "textExtendedBadges": {
+              
+            },
+            "textBased": {
+              
+            },
+            "imageBased": {
+              
+            }
+          }
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "--"
+          }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=180958",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "58100",
+        "name": "Sagar Delicacy",
+        "cloudinaryImageId": "kwklsjjjaraegxzd22xn",
+        "locality": "Ulsoor",
+        "areaName": "Central Bangalore",
+        "costForTwo": "₹300 for two",
+        "cuisines": [
+          "North Indian",
+          "South Indian",
+          "Chinese"
+        ],
+        "avgRating": 4.5,
+        "parentId": "20013",
+        "avgRatingString": "4.5",
+        "totalRatingsString": "5K+",
+        "promoted": true,
+        "adTrackingId": "cid=12289097~p=6~adgrpid=12289097#ag1~mp=SWIGGY_IN~bl=FOOD~eid=47b3be93-73d8-4892-99c7-e53ef2969f88~aet=RESTAURANT~aeid=58100~srvts=1711784255743",
+        "sla": {
+          "deliveryTime": 26,
+          "lastMileTravel": 1,
+          "serviceability": "SERVICEABLE",
+          "slaString": "25-30 mins",
+          "lastMileTravelString": "1.0 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-30 23:00:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "v1695133679/badges/Pure_Veg111.png",
+              "description": "pureveg"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                    "description": "pureveg"
+                  }
+                }
+              ]
+            },
+            "textExtendedBadges": {
+              
+            },
+            "textBased": {
+              
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "10% OFF",
+          "subHeader": "UPTO ₹40"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "4.0",
+            "ratingCount": "1K+"
+          },
+          "source": "GOOGLE",
+          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=58100",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "30034",
+        "name": "Mani's Dum Biryani",
+        "cloudinaryImageId": "y0fjz8h4ad8nfzkmbznu",
+        "locality": "Haudin Road",
+        "areaName": "Ulsoor",
+        "costForTwo": "₹499 for two",
+        "cuisines": [
+          "Andhra",
+          "Biryani",
+          "North Indian"
+        ],
+        "avgRating": 4.5,
+        "parentId": "623",
+        "avgRatingString": "4.5",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 20,
+          "lastMileTravel": 0.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "15-20 mins",
+          "lastMileTravelString": "0.8 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-30 23:30:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": {
+          
+        },
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              
+            },
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "shortDescription": "options available",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "description": ""
+                  }
+                }
+              ]
+            },
+            "textBased": {
+              
+            }
+          }
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "4.1",
+            "ratingCount": "1K+"
+          },
+          "source": "GOOGLE",
+          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=30034",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "393107",
+        "name": "EatFit",
+        "cloudinaryImageId": "a564ace38895abd960157ac2a76aaf2a",
+        "locality": "Ali Asker Road",
+        "areaName": "Cunningham Road",
+        "costForTwo": "₹270 for two",
+        "cuisines": [
+          "Chinese",
+          "Healthy Food",
+          "Tandoor",
+          "Pizzas",
+          "North Indian",
+          "Thalis",
+          "Biryani"
+        ],
+        "avgRating": 4.4,
+        "parentId": "76139",
+        "avgRatingString": "4.4",
+        "totalRatingsString": "1K+",
+        "promoted": true,
+        "adTrackingId": "cid=11526319~p=7~adgrpid=11526319#ag1~mp=SWIGGY_IN~bl=FOOD~eid=f829b0f1-2f1f-414c-92d8-b8e55a75a655~aet=RESTAURANT~aeid=393107~srvts=1711784255743",
+        "sla": {
+          "deliveryTime": 24,
+          "lastMileTravel": 2.3,
+          "serviceability": "SERVICEABLE",
+          "slaString": "20-25 mins",
+          "lastMileTravelString": "2.2 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-31 01:00:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "Rxawards/_CATEGORY-Guiltfree.png",
+              "description": "Delivery!"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "textBased": {
+              
+            },
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "imageId": "Rxawards/_CATEGORY-Guiltfree.png",
+                    "description": "Delivery!"
+                  }
+                }
+              ]
+            },
+            "textExtendedBadges": {
+              
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "50% OFF",
+          "subHeader": "UPTO ₹100"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "--"
+          }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=393107",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "418859",
+        "name": "Udupi Shanthi Sagar",
+        "cloudinaryImageId": "rlfcmogwwbrgi1xa4owk",
+        "locality": "Cleveland Town",
+        "areaName": "Frazer Town",
+        "costForTwo": "₹200 for two",
+        "cuisines": [
+          "South Indian",
+          "Beverages"
+        ],
+        "avgRating": 4.5,
+        "veg": true,
+        "parentId": "233016",
+        "avgRatingString": "4.5",
+        "totalRatingsString": "1K+",
+        "sla": {
+          "deliveryTime": 29,
+          "lastMileTravel": 2.3,
+          "serviceability": "SERVICEABLE",
+          "slaString": "25-30 mins",
+          "lastMileTravelString": "2.2 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-30 23:00:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "v1695133679/badges/Pure_Veg111.png",
+              "description": "pureveg"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "textExtendedBadges": {
+              
+            },
+            "textBased": {
+              
+            },
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                    "description": "pureveg"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "15% OFF",
+          "subHeader": "UPTO ₹45"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "--"
+          }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=418859",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "117871",
+        "name": "Green Onion Chinese-Residency Road",
+        "cloudinaryImageId": "443c0f41ecb658490b7654f1c16d544a",
+        "locality": "Residency Road",
+        "areaName": "Central Bangalore",
+        "costForTwo": "₹600 for two",
+        "cuisines": [
+          "Chinese"
+        ],
+        "avgRating": 4.5,
+        "parentId": "401339",
+        "avgRatingString": "4.5",
+        "totalRatingsString": "5K+",
+        "sla": {
+          "deliveryTime": 28,
+          "lastMileTravel": 2.1,
+          "serviceability": "SERVICEABLE",
+          "slaString": "25-30 mins",
+          "lastMileTravelString": "2.0 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-30 22:50:00",
+          "opened": true
+        },
+        "badges": {
+          
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              
+            },
+            "textExtendedBadges": {
+              
+            },
+            "textBased": {
+              
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "₹100 OFF",
+          "subHeader": "ABOVE ₹999",
+          "discountTag": "FLAT DEAL"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "4.3",
+            "ratingCount": "1K+"
+          },
+          "source": "GOOGLE",
+          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=117871",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "58197",
+        "name": "Shanti Sagar",
+        "cloudinaryImageId": "ddlewhiegjaigcxnp5tr",
+        "locality": "Ulsoor",
+        "areaName": "Central Bangalore",
+        "costForTwo": "₹300 for two",
+        "cuisines": [
+          "South Indian",
+          "North Indian",
+          "Chinese"
+        ],
+        "avgRating": 4.5,
+        "parentId": "20012",
+        "avgRatingString": "4.5",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 23,
+          "lastMileTravel": 1,
+          "serviceability": "SERVICEABLE",
+          "slaString": "20-25 mins",
+          "lastMileTravelString": "1.0 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-30 22:00:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "textBased": {
+              
+            },
+            "imageBased": {
+              
+            },
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "shortDescription": "options available",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "10% OFF",
+          "subHeader": "UPTO ₹40"
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "3.9",
+            "ratingCount": "10K+"
+          },
+          "source": "GOOGLE",
+          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=58197",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    },
+    {
+      "info": {
+        "id": "56590",
+        "name": "Mangalore Pearl",
+        "cloudinaryImageId": "qvavzxpybrymuadiantk",
+        "locality": "Ulsoor",
+        "areaName": "Ulsoor",
+        "costForTwo": "₹550 for two",
+        "cuisines": [
+          "Coastal",
+          "Seafood"
+        ],
+        "avgRating": 4.6,
+        "parentId": "21655",
+        "avgRatingString": "4.6",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 25,
+          "lastMileTravel": 1.3,
+          "serviceability": "SERVICEABLE",
+          "slaString": "25-30 mins",
+          "lastMileTravelString": "1.2 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-03-30 15:30:00",
+          "opened": true
+        },
+        "badges": {
+          
+        },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": {
+          
+        },
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "textBased": {
+              
+            },
+            "imageBased": {
+              
+            },
+            "textExtendedBadges": {
+              
+            }
+          }
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "lottie": {
+              
+            },
+            "video": {
+              
+            }
+          }
+        },
+        "reviewsSummary": {
+          
+        },
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {
+          
+        },
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "4.4",
+            "ratingCount": "1K+"
+          },
+          "source": "GOOGLE",
+          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        
+      },
+      "cta": {
+        "link": "swiggy://menu?restaurant_id=56590",
+        "text": "RESTAURANT_MENU",
+        "type": "DEEPLINK"
+      }
+    }
+  ]}
