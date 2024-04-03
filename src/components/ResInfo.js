@@ -1,34 +1,15 @@
-import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
-import { useParams } from "react-router-dom";
-import { MENU_API,IMAGE_URL } from "../utils/constants";
+import {IMAGE_URL } from "../utils/constants";
+import useResMenu from "../utils/useResMenu";
 
 const ResInfo = () => {
-const [resMenu, setResMenu] = useState(null);
-//console.log(useState());
-const {resId} = useParams();
-useEffect(()=>{fetchMenu()},[])
-
-const fetchMenu = async() => {
-    const data = await fetch(
-        MENU_API + resId);
-    console.log(data);
-    const json = await data.json();
-    
-     
-    console.log(json?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card);
-    
-     setResMenu(json.data);
-    
-
-}
+const resMenu = useResMenu();
+console.log(resMenu);
 if (resMenu === null){ return <Shimmer/>}
 //console.log(resMenu);
 const {name,cloudinaryImageId,city,costForTwoMessage} =
  resMenu?.cards[2]?.card?.card?.info;
  const {itemCards,carousel} = (resMenu.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card);
-
-   
 
     return(
         <div className="resinfo">
@@ -41,7 +22,7 @@ const {name,cloudinaryImageId,city,costForTwoMessage} =
             <div className="info">
             <ul>
             { (resMenu.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card?.itemCards) !== undefined ? (
-    itemCards.map((item) => (
+            itemCards.map((item) => (
         <li key={item.card.info.id}>
             <div className="menuitem">
             <div className="menu">

@@ -2,13 +2,15 @@ import RestaurantCard from "./RestaurantCard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import {Link}  from "react-router-dom"
+import useOnlineStatus from "../utils/useOnlineStatus";
+import { MAIN_API } from "../utils/constants";
 
 const Body = () => {
   // Local State Variable - Super powerful variable
   const [listOfRestaurants, setListOfRestraunt] = useState([]);
   const [filteredRestaurant, setFilteredRestaurant] = useState([]);
-
   const [searchText, setSearchText] = useState("");
+  const onlineStatus = useOnlineStatus();
 
   // Whenever state variables update, react triggers a reconciliation cycle(re-renders the component)
   console.log("Body Rendered");
@@ -19,14 +21,11 @@ const Body = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch(
-        "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9827745&lng=77.6130519&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
-      );
+      const response = await fetch(MAIN_API);
       if (!response.ok) {
         throw new Error("Failed to fetch API data");
       }
       const json = await response.json();
-      console.log(json);
       const restaurants = json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
       setListOfRestraunt(restaurants);
       setFilteredRestaurant(restaurants);
@@ -35,7 +34,12 @@ const Body = () => {
       console.error("Error fetching data:", error);
     }
   };
-  
+  if(onlineStatus===false){
+    return(
+     <h1>Please Check Your Internet Connection?</h1>  
+    )
+  }
+
   console.log(filteredRestaurant.length);
   if (filteredRestaurant.length === 0) {
     return <Shimmer />;
@@ -85,9 +89,9 @@ const Body = () => {
         {filteredRestaurant.map((restaurant) => (
         //  <RestaurantCard key={restaurant.info.id} resData={restaurant} />
         <Link id= {restaurant.info.id} 
+          key = {restaurant.info.id}
           to = {"/resturant/"+restaurant.info.id} 
-          >
-            <RestaurantCard resData={restaurant} />
+          ><RestaurantCard resData={restaurant} />
         </Link>
         ))}
       </div>
