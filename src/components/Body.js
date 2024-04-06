@@ -1,4 +1,4 @@
-import RestaurantCard from "./RestaurantCard";
+import RestaurantCard,{restaurantCardOpen} from "./RestaurantCard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import {Link}  from "react-router-dom"
@@ -12,6 +12,7 @@ const Body = () => {
   const [filteredRestaurant, setFilteredRestaurant] = useState([]);
   const [searchText, setSearchText] = useState("");
   const onlineStatus = useOnlineStatus();
+  const RestaurantOpen = restaurantCardOpen(RestaurantCard);
 
   // Whenever state variables update, react triggers a reconciliation cycle(re-renders the component)
   console.log("Body Rendered");
@@ -27,6 +28,7 @@ const Body = () => {
         throw new Error("Failed to fetch API data");
       }
       const json = await response.json();
+      console.log(json);
       const restaurants = json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
       setListOfRestraunt(restaurants);
       setFilteredRestaurant(restaurants);
@@ -89,11 +91,12 @@ const Body = () => {
       <img src={BG_IMG} />
       <div className="flex flex-wrap m-6 ">
         {filteredRestaurant.map((restaurant) => (
-        //  <RestaurantCard key={restaurant.info.id} resData={restaurant} />
         <Link id= {restaurant.info.id} 
           key = {restaurant.info.id}
           to = {"/resturant/"+restaurant.info.id} 
-          ><RestaurantCard resData={restaurant} />
+          >
+            {restaurant.info.isOpen?<RestaurantOpen resData={restaurant}/>:
+            <RestaurantCard resData={restaurant} />}
         </Link>
         ))}
       </div>
