@@ -7,23 +7,23 @@ const Header = () => {
   console.log("Header render");
 
   return (
-    <div className="header">
+    <div className="flex justify-between bg-gray-200 shadow-lg">
       <div className="logo-container">
-        <img className="logo" src={LOGO_URL} />
+        <img className="w-24" src={LOGO_URL} />
       </div>
-      <div className="nav-items">
-        <ul>
-          <li>
+      <div className="items-center pt-6">
+        <ul className="flex">
+          <li className="px-5">
           <Link to="/">Home</Link>
           </li>
-          <li>
+          <li className="px-6">
           <Link to="/about">About Us</Link></li>
-          <li>
+          <li className="px-6">
           <Link to="/contact">Contact Us</Link></li>
-          <li>
+          <li className="px-6">
           <Link to="/cart">Cart</Link></li>
           <button
-            className="login"
+            className="px-6"
             onClick={() => {
               btnNameReact === "Login"
                 ? setBtnNameReact("Logout")

@@ -15,7 +15,7 @@ const User = () =>{
     console.log("get");
     const {avatar_url,name,login,company,location,email,bio,followers,following} = userInfo;
         return(
-            <div className="user-card">
+            <div className="m-5 shadow-lg w-52">
               <img src={avatar_url}/>
                 <h1>{name}</h1>
                 <h2>{login}</h2>

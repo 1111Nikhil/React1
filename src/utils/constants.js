@@ -12,3 +12,6 @@ export const MENU_API =
 
 export const IMAGE_URL =
 "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/"
+
+export const BG_IMG =
+"https://theyogainstitute.oss-ap-south-1.aliyuncs.com/uploads/2016/09/Eat_Right_for_Healthy_Living.jpg";

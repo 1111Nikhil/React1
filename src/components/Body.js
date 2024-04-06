@@ -3,7 +3,8 @@ import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import {Link}  from "react-router-dom"
 import useOnlineStatus from "../utils/useOnlineStatus";
-import { MAIN_API } from "../utils/constants";
+import { MAIN_API , BG_IMG } from "../utils/constants";
+
 
 const Body = () => {
   // Local State Variable - Super powerful variable
@@ -46,17 +47,17 @@ const Body = () => {
   }
   return (
     <div className="body">
-      <div className="filter">
+      <div className="filter flex m-4">
         <div className="search">
           <input
             type="text"
-            className="search-box"
+            className="search-box  border border-solid border-black"
             value={searchText}
             onChange={(e) => {
               setSearchText(e.target.value);
             }}
           />
-          <button
+          <button className="font-bold text-white bg-blue-500 py-1 px-2 hover:bg-blue-700"
             onClick={() => {
               // Filter the restraunt cards and update the UI
               // searchText
@@ -72,8 +73,8 @@ const Body = () => {
             Search
           </button>
         </div>
-        <button
-          className="filter-btn"
+        <button className="font-bold text-white bg-blue-500 py-1 px-2 hover:bg-blue-700 mx-5"
+          
           onClick={() => {
             const filteredRestaurant = listOfRestaurants.filter(
               (res) => res.info.avgRating > 4.5
@@ -85,7 +86,8 @@ const Body = () => {
           Top Rated Restaurants
         </button>
       </div>
-      <div className="res-container">
+      <img src={BG_IMG} />
+      <div className="flex flex-wrap m-6 ">
         {filteredRestaurant.map((restaurant) => (
         //  <RestaurantCard key={restaurant.info.id} resData={restaurant} />
         <Link id= {restaurant.info.id} 
