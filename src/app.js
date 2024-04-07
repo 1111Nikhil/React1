@@ -1,4 +1,4 @@
-import React, { Suspense, lazy } from "react";
+import React, { Suspense, lazy, useState } from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./components/Header";
 import Body from "./components/Body";
@@ -8,15 +8,19 @@ import Error from "./components/Error";
 import ResInfo from "./components/ResInfo";
 import { createBrowserRouter, RouterProvider ,Outlet} from "react-router-dom";
 import Shimmer from "./components/Shimmer";
-;
+import UserContext from "./utils/UserContext.js"
 
+ 
  const About = lazy(()=>import("./components/About"));
 const AppLayout = () => {
+  const [userName, setUserName] = useState();
   return (
-    <div className="app">
+    <UserContext.Provider value={{loginUser:userName,setUserName}}>
+      <div className="app">
       <Header />
       <Outlet/>
     </div>
+    </UserContext.Provider>
   );
 };
 

@@ -1,9 +1,10 @@
 import RestaurantCard,{restaurantCardOpen} from "./RestaurantCard";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import Shimmer from "./Shimmer";
 import {Link}  from "react-router-dom"
 import useOnlineStatus from "../utils/useOnlineStatus";
 import { MAIN_API , BG_IMG } from "../utils/constants";
+import UserContext from "../utils/UserContext";
 
 
 const Body = () => {
@@ -13,9 +14,8 @@ const Body = () => {
   const [searchText, setSearchText] = useState("");
   const onlineStatus = useOnlineStatus();
   const RestaurantOpen = restaurantCardOpen(RestaurantCard);
+  const {loginUser,setUserName} = useContext(UserContext);
 
-  // Whenever state variables update, react triggers a reconciliation cycle(re-renders the component)
-  console.log("Body Rendered");
 
   useEffect(() => {
     fetchData();
@@ -28,11 +28,11 @@ const Body = () => {
         throw new Error("Failed to fetch API data");
       }
       const json = await response.json();
-      console.log(json);
+     
       const restaurants = json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
       setListOfRestraunt(restaurants);
       setFilteredRestaurant(restaurants);
-      console.log(restaurants);
+      
     } catch (error) {
       console.error("Error fetching data:", error);
     }
@@ -43,7 +43,7 @@ const Body = () => {
     )
   }
 
-  console.log(filteredRestaurant.length);
+  
   if (filteredRestaurant.length === 0) {
     return <Shimmer />;
   }
@@ -61,14 +61,9 @@ const Body = () => {
           />
           <button className="font-bold text-white bg-blue-500 py-1 px-2 hover:bg-blue-700"
             onClick={() => {
-              // Filter the restraunt cards and update the UI
-              // searchText
-              console.log(searchText);
-
-              const filteredRestaurant = listOfRestaurants.filter((res) =>
+                  const filteredRestaurant = listOfRestaurants.filter((res) =>
                 res.info.name.toLowerCase().includes(searchText.toLowerCase())
               );
-
               setFilteredRestaurant(filteredRestaurant);
             }}
           >
@@ -76,7 +71,6 @@ const Body = () => {
           </button>
         </div>
         <button className="font-bold text-white bg-blue-500 py-1 px-2 hover:bg-blue-700 mx-5"
-          
           onClick={() => {
             const filteredRestaurant = listOfRestaurants.filter(
               (res) => res.info.avgRating > 4.5
@@ -87,6 +81,10 @@ const Body = () => {
         >
           Top Rated Restaurants
         </button>
+        User:<input className="border border-black mx-2 px-2"
+        maxLength={10}
+        value={loginUser}
+        onChange={(e)=>setUserName(e.target.value)}/>
       </div>
       <img src={BG_IMG} />
       <div className="flex flex-wrap m-6 ">
