@@ -9,18 +9,23 @@ import ResInfo from "./components/ResInfo";
 import { createBrowserRouter, RouterProvider ,Outlet} from "react-router-dom";
 import Shimmer from "./components/Shimmer";
 import UserContext from "./utils/UserContext.js"
+import Cart from "./components/Cart.js"
+import {Provider} from "react-redux"
+import appStore from "./utils/appStore.js"
 
  
  const About = lazy(()=>import("./components/About"));
 const AppLayout = () => {
   const [userName, setUserName] = useState();
   return (
+    <Provider store={appStore}>
     <UserContext.Provider value={{loginUser:userName,setUserName}}>
       <div className="app">
       <Header />
       <Outlet/>
     </div>
     </UserContext.Provider>
+    </Provider>
   );
 };
 
@@ -42,6 +47,11 @@ const AppRouter = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact/>
+        
+      },
+      {
+        path: "/cart",
+        element: <Cart/>
         
       },
       {

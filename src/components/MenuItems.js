@@ -1,5 +1,14 @@
 import { IMAGE_URL } from "../utils/constants";
+import { additem, removeitem } from "../utils/cartSlice";
+import {useDispatch} from "react-redux"
 const MenuItems = ({menu}) =>{
+    const dispath = useDispatch();
+    const HandelAddItem = (item) =>{
+         dispath(additem(item));
+    }
+    const HandelRemoveItem= (item) =>{
+        dispath(removeitem(item));
+    }
     return(
         <div>
             {menu.map((item)=>(
@@ -15,9 +24,17 @@ const MenuItems = ({menu}) =>{
              
              <img  className="w-24 h-32 rounded-xl"
             alt= "Item-Image"
-            src={IMAGE_URL + item.card.info.imageId} />  
-            <button className="text-white bg-slate-900 mx-6 relative top-[-15px] p-1
-            rounded-2xl">Add +</button> 
+            src={IMAGE_URL + item.card.info.imageId} /> 
+            <diV className="text-white bg-slate-900 mx-6 relative top-[-15px] p-2
+            rounded-2xl">
+            {/* <button className="text-white bg-slate-900 mx-6 relative top-[-15px] p-1
+            rounded-2xl" */}
+            <button className="mx-1"
+            onClick={() =>HandelRemoveItem(item)}>-</button> 
+            <button
+            onClick={() =>HandelAddItem(item)}
+            >Add +</button> 
+            </diV>
            </div>
                 </div>
             ))}
